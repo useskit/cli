@@ -4,41 +4,58 @@
 </a>
 </p>
 <p>
-  <img alt="npm version" src="https://img.shields.io/npm/v/@useskit/router.svg">
-  <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/min/@useskit/router">
-  <img alt="npm downloads" src="https://img.shields.io/npm/dw/@useskit/router">
-  <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/useskit/js-single-package-template?label=github">
-  <img alt="forks" src="https://img.shields.io/github/forks/useskit/js-single-package-template" />
-  <img alt="stars" src="https://img.shields.io/github/stars/useskit/js-single-package-template" />
-  <img alt="License: MIT" src="https://img.shields.io/github/license/useskit/js-single-package-template" />
+  <img alt="npm" src="https://img.shields.io/npm/v/@useskit/cli">
+  <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/min/@useskit/cli">
+  <img alt="npm downloads" src="https://img.shields.io/npm/dw/@useskit/cli">
+  <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/useskit/cli?label=github">
+  <img alt="forks" src="https://img.shields.io/github/forks/useskit/cli" />
+  <img alt="stars" src="https://img.shields.io/github/stars/useskit/cli" />
+  <img alt="License: MIT" src="https://img.shields.io/github/license/useskit/cli" />
 </p>
 
-> single package template for javascript
+> The useskit command line interface (CLI)
 
 ### 🛠️ Install
+```
+npm install -g @useskit/cli
+```
 
  
 ### ✍️ Usage
-
+```
+$ useskit --help
+$ useskit <command> --help
+$ useskit <command> <subcommand> --help
+```
+- initalize the command
+```
+$ useskit init <project-name> [options]
+```
+- build the command
+```
+$ useskit build 
+$ useskit build --prod
+$ useskit build --watch
+```
+- add the command
+```
+$ useskit add <web-component-name> [--wc]
+```
  
 ### 🧪 Functions
 
+### 🌏 Website: https://www.useskit.com  
 
- 
-### 🧑 Author
+### 💼 GitHub: https://github.com/useskit/cli
 
-- 🧑 Aipeli
-  - 🌏 Website: https://www.useskit.com  
-  - 💼 GitHub: [Aipeli](https://github.com/aipeli)   
 ### 🤝 Contributing
+> Contributions, issues and feature requests are welcome! [issues page](https://github.com/useskit/cli/issues). 
+- 🧑 [Aipeli's Github](https://github.com/aipeli)
 
-Contributions, issues and feature requests are welcome! [issues page](https://github.com/useskit/js/issues). 
 ### ⭐️ Show your support
+> Give a ⭐️ if this project helped you! 
 
-Give a ⭐️ if this project helped you! 
-- 💼 GitHub: [UsesKit](https://github.com/useskit/js)
 ### 📝 License
-
  Copyright © 2022 [aipeli](https://github.com/aipeli) && [UsesKit](https://github.com/useskit).  This project is [MIT](LICENSE) licensed. 
 
 ---
