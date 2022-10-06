@@ -1,9 +1,9 @@
 // import banner from 'rollup-plugin-banner'
 import { terser } from 'rollup-plugin-terser'
-import typescript from 'rollup-plugin-typescript2'
+import commonjs from '@rollup/plugin-commonjs'
+import  typescript from '@rollup/plugin-typescript'
 import { nodeResolve } from '@rollup/plugin-node-resolve'
-import commonjs from 'rollup-plugin-commonjs'
-import pkg from './package.json'
+import pkg from '../package.json'
 
 const _banner = `#!/usr/bin/env node
 /**

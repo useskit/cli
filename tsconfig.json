@@ -5,9 +5,9 @@
     "target": "ES6", // 编译目标
     "module": "ESNext", // 模块类型
     "outDir": "./dist/", // 输出目录
-    "sourceMap": false, // 是否生成sourceMap
+    "sourceMap": true, // 是否生成sourceMap
     "declaration": true, // 生成定义文件
-    "declarationMap": false, // 生成定义sourceMap
+    "declarationMap": true, // 生成定义sourceMap
     "removeComments": true, // 删除注释
     "noImplicitAny": false, // 没有隐式类型any
     "noUnusedLocals": true, // 未使用变量报错
@@ -17,8 +17,20 @@
     "moduleResolution": "node",
     "experimentalDecorators": true, // 启动装饰器
     "forceConsistentCasingInFileNames": true, // 将强制区分大小写
+    "baseUrl": "." /* Base directory to resolve non-absolute module names. */,
+    "rootDir": ".",
+    "lib": [
+      "es2021",
+      "DOM"
+    ],
   },
   "include": [
     "./**/*.d.ts",
+  ],
+  "exclude": [
+    "example/**",
+    "dist/**",
+    "**/.configs/**",
+    "**/docs/**/*"
   ]
 }
